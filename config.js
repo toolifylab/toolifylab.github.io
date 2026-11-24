@@ -21,9 +21,9 @@ window.TOOLIFY_CONFIG = {
   // 4) Datos de TRANSFERENCIA BANCARIA que verá el cliente
   transferencia: {
     banco: 'Mercantil',
-    titular: 'PENDIENTE',          // nombre del titular de la cuenta
-    tipoCuenta: 'PENDIENTE',       // corriente o ahorro
-    cuenta: 'PENDIENTE',           // número de cuenta (20 dígitos)
+    titular: 'Jetsanderys Guilarte',          // nombre del titular de la cuenta
+    tipoCuenta: 'Ahorro',       // corriente o ahorro
+    cuenta: '01050086960086423304',           // número de cuenta (20 dígitos)
     cedula: '22282428'        // cédula o RIF del titular
   },
 
@@ -34,8 +34,8 @@ window.TOOLIFY_CONFIG = {
 
   // 6) TASA DEL DÍA: cuántos bolívares vale 1 dólar. Cámbiala cada día.
   //    Usa punto para los decimales, sin comillas. Ejemplo: 38.45
-  tasaBs: 897.53,
-  tasaFecha: '09/11/2026',    // fecha de esa tasa, por ejemplo: '10/11/2026'
+  tasaBs: 1200,
+  tasaFecha: '24/11/2026',    // fecha de esa tasa, por ejemplo: '10/11/2026'
 
   // 7) Dirección de Fluu, para el botón "Probar 3 días gratis"
   fluuUrl: 'https://jetgui.github.io/fluu-app/'
